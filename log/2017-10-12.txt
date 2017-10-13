@@ -1,0 +1,2 @@
+time=20171012T154458 level=error msg="open d:\MyGo\src\wzhyupload\out: The system cannot find the file specified." 
+time=20171012T154458 level=info msg="start service..." 
