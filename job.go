@@ -246,7 +246,7 @@ func searchTable(maxrows int, ID string, db ddb.DB, tab, shadowTable *data.Table
 		}
 		icount++
 		//限制每次上传数据的数量
-		if rowsNum == maxrows {
+		if rowsNum >= maxrows {
 			break
 		}
 	}
